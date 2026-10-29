@@ -1,0 +1,4 @@
+export const reports = [
+  { id: 'INC-001', title: 'Exam submission delays', hypothesis: 'Database performance degradation', evidence: ['Query latency increased', 'API response time increased', 'Database errors appeared'], impact: 'About 4,820 active students; submissions delayed or failing.', resolution: 'Pending verification', prevention: ['Monitor database latency', 'Alert on sustained query delays', 'Review query performance'], uncertainties: ['Connection-pool utilization not measured', 'Lock waits not measured'] },
+  { id: 'INC-003', title: 'Memory utilization spike', hypothesis: 'Cache growth', evidence: ['Memory peaked at 92%'], impact: 'Brief slowdowns for a small number of students.', resolution: 'Cache flush at 09:57 restored normal memory use.', prevention: ['Cap cache size', 'Alert at 85% memory'], uncertainties: ['None recorded'] },
+];
