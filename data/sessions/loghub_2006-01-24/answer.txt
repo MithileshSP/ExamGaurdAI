@@ -1,0 +1,1 @@
+12:50-13:02 database slowdown (planted); 20:49-20:55 Apache worker crashes and mod_jk failure (real log); the 12:51 bot scan is a decoy

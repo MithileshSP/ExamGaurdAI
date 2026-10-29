@@ -1,0 +1,6 @@
+.env
+key.txt
+.venv/
+__pycache__/
+.omc/
+node_modules/

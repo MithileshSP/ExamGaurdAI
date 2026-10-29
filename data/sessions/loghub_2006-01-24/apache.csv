@@ -1,0 +1,818 @@
+timestamp,level,message
+2006-01-24 00:41:46,notice,jk2_init() Found child 30429 in scoreboard slot 3
+2006-01-24 00:41:46,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 00:41:46,error,mod_jk child workerEnv in error state 8
+2006-01-24 00:41:46,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:46,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,jk2_init() Can't find child 30430 in scoreboard
+2006-01-24 00:41:47,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 00:41:47,error,mod_jk child init 1 -2
+2006-01-24 00:41:47,error,jk2_init() Can't find child 30431 in scoreboard
+2006-01-24 00:41:47,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 00:41:47,error,mod_jk child init 1 -2
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:47,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:48,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:49,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:49,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:49,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:49,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:49,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:50,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/mambo
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:51,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/cvs
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:52,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:53,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:54,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:55,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:55,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:55,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:55,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:55,error,[client 209.250.116.251] File does not exist: /var/www/html/drupal
+2006-01-24 00:41:55,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:55,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:56,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:56,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:56,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:56,error,[client 209.250.116.251] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:41:56,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:56,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:56,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:56,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:57,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:57,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:57,notice,mod_jk2 Shutting down
+2006-01-24 00:41:57,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:57,error,[client 209.250.116.251] File does not exist: /var/www/html/wordpress
+2006-01-24 00:41:58,notice,mod_jk2 Shutting down
+2006-01-24 00:41:59,notice,mod_jk2 Shutting down
+2006-01-24 00:53:43,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:43,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:43,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:44,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:45,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:45,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:45,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:45,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:45,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:45,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:46,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:46,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:46,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:46,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:46,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:46,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:47,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:47,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:47,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:47,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:47,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:47,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:48,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:48,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:48,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:48,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:48,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:48,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:49,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:49,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:49,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:50,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:50,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:50,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:50,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:50,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:50,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:51,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:51,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:51,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:52,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:52,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:52,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:52,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:52,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:52,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:52,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:52,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:53,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:53,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:54,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:54,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:54,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:54,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:54,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:54,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:54,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:54,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:54,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:54,error,[client 81.192.114.8] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 00:53:54,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:55,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:55,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:55,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:55,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:55,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:55,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:56,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:56,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:56,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:56,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:56,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:56,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:56,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:53:56,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:53:57,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:57,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:57,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:57,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:57,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:58,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:58,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:58,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:58,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:53:59,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:53:59,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:53:59,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:53:59,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:53:59,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:59,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:53:59,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 00:54:00,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:00,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:00,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:00,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:00,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:00,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:00,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:00,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:00,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:01,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:54:01,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:54:01,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:02,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:03,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:03,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:03,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:03,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:04,error,[client 81.192.114.8] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 00:54:05,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:05,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:05,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:05,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:05,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:05,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:05,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:05,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:05,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:06,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:06,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:06,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:07,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:07,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:07,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:08,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:08,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:08,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:08,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:08,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:10,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:10,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:10,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:10,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:10,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:10,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:11,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:11,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:11,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:11,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:11,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:11,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/blog
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:13,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:14,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:14,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:14,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:14,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:14,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:14,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:14,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:14,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:16,error,[client 81.192.114.8] File does not exist: /var/www/html/blogs
+2006-01-24 00:54:16,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:16,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:16,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:16,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:16,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:16,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:18,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:18,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:18,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:18,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:18,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:18,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:19,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:19,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:19,error,[client 81.192.114.8] File does not exist: /var/www/html/drupal
+2006-01-24 00:54:19,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:19,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:19,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:20,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:21,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:21,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:21,error,[client 81.192.114.8] File does not exist: /var/www/html/phpgroupware
+2006-01-24 00:54:21,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:22,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:23,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:23,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:23,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:23,error,[client 81.192.114.8] File does not exist: /var/www/html/wordpress
+2006-01-24 00:54:24,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:24,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:25,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:25,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:26,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:26,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:27,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:28,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:30,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 00:54:30,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlrpc
+2006-01-24 00:54:37,error,[client 81.192.114.8] File does not exist: /var/www/html/xmlsrv
+2006-01-24 01:32:42,error,[client 64.236.128.14] Directory index forbidden by rule: /var/www/html/
+2006-01-24 01:49:16,error,[client 69.213.185.181] Directory index forbidden by rule: /var/www/html/
+2006-01-24 02:09:18,error,[client 206.110.108.3] Directory index forbidden by rule: /var/www/html/
+2006-01-24 05:08:11,error,[client 82.138.209.82] Directory index forbidden by rule: /var/www/html/
+2006-01-24 05:54:18,error,[client 218.50.19.175] Directory index forbidden by rule: /var/www/html/
+2006-01-24 06:03:39,error,[client 71.115.223.211] Directory index forbidden by rule: /var/www/html/
+2006-01-24 06:12:44,error,[client 61.241.91.18] Directory index forbidden by rule: /var/www/html/
+2006-01-24 07:57:33,error,[client 67.172.141.47] Directory index forbidden by rule: /var/www/html/
+2006-01-24 08:21:38,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:38,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:39,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:39,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:41,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:41,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:41,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:41,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:42,error,[client 81.240.219.170] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:21:42,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:42,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:42,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:42,error,[client 81.240.219.170] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:21:42,error,[client 81.240.219.170] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:21:44,error,[client 81.240.219.170] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:21:45,error,[client 81.240.219.170] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:21:46,error,[client 81.240.219.170] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:21:46,error,[client 81.240.219.170] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 08:21:46,error,[client 81.240.219.170] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:21:49,error,[client 81.240.219.170] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 08:21:52,error,[client 81.240.219.170] File does not exist: /var/www/html/blog
+2006-01-24 08:23:01,error,[client 202.141.25.89] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:23:01,error,[client 202.141.25.89] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:23:01,error,[client 202.141.25.89] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:23:02,error,[client 202.141.25.89] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:23:05,error,[client 202.141.25.89] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:23:05,error,[client 202.141.25.89] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:23:05,error,[client 202.141.25.89] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:23:05,error,[client 202.141.25.89] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:23:05,error,[client 202.141.25.89] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 08:23:06,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:23:06,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:23:09,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:23:09,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:23:09,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:23:09,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 08:23:12,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 08:23:12,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 08:23:13,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 08:23:13,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 08:23:13,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 08:23:14,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:16,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:16,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:18,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:18,error,[client 202.141.25.89] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 08:23:19,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:19,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:20,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:20,error,[client 202.141.25.89] File does not exist: /var/www/html/blogs
+2006-01-24 08:23:20,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:20,error,[client 202.141.25.89] File does not exist: /var/www/html/blogs
+2006-01-24 08:23:22,error,[client 202.141.25.89] File does not exist: /var/www/html/blogs
+2006-01-24 08:23:22,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:22,error,[client 202.141.25.89] File does not exist: /var/www/html/drupal
+2006-01-24 08:23:23,error,[client 202.141.25.89] File does not exist: /var/www/html/blog
+2006-01-24 08:23:23,error,[client 202.141.25.89] File does not exist: /var/www/html/blogs
+2006-01-24 08:23:23,error,[client 202.141.25.89] File does not exist: /var/www/html/phpgroupware
+2006-01-24 08:23:25,error,[client 202.141.25.89] File does not exist: /var/www/html/drupal
+2006-01-24 08:23:26,error,[client 202.141.25.89] File does not exist: /var/www/html/phpgroupware
+2006-01-24 08:23:28,error,[client 202.141.25.89] File does not exist: /var/www/html/wordpress
+2006-01-24 08:23:28,error,[client 202.141.25.89] File does not exist: /var/www/html/drupal
+2006-01-24 08:23:28,error,[client 202.141.25.89] File does not exist: /var/www/html/blogs
+2006-01-24 08:23:29,error,[client 202.141.25.89] File does not exist: /var/www/html/phpgroupware
+2006-01-24 08:23:30,error,[client 202.141.25.89] File does not exist: /var/www/html/xmlrpc
+2006-01-24 08:23:31,error,[client 202.141.25.89] File does not exist: /var/www/html/wordpress
+2006-01-24 08:23:32,error,[client 202.141.25.89] File does not exist: /var/www/html/xmlsrv
+2006-01-24 08:23:33,error,[client 202.141.25.89] File does not exist: /var/www/html/phpgroupware
+2006-01-24 08:23:37,error,[client 202.141.25.89] File does not exist: /var/www/html/drupal
+2006-01-24 08:23:37,error,[client 202.141.25.89] File does not exist: /var/www/html/xmlrpc
+2006-01-24 08:23:37,error,[client 202.141.25.89] File does not exist: /var/www/html/xmlrpc
+2006-01-24 08:23:38,error,[client 202.141.25.89] File does not exist: /var/www/html/xmlsrv
+2006-01-24 08:23:38,error,[client 202.141.25.89] File does not exist: /var/www/html/xmlsrv
+2006-01-24 08:23:42,error,[client 202.141.25.89] File does not exist: /var/www/html/drupal
+2006-01-24 08:23:43,error,[client 202.141.25.89] File does not exist: /var/www/html/wordpress
+2006-01-24 08:23:47,error,[client 202.141.25.89] File does not exist: /var/www/html/phpgroupware
+2006-01-24 09:57:58,error,[client 192.195.225.6] Directory index forbidden by rule: /var/www/html/
+2006-01-24 11:42:45,error,[client 65.65.127.134] Directory index forbidden by rule: /var/www/html/
+2006-01-24 12:09:36,error,[client 69.198.136.15] Directory index forbidden by rule: /var/www/html/
+2006-01-24 12:51:57,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:51:58,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:51:59,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:51:59,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:00,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:01,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:03,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:04,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:05,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:06,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:06,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:07,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:07,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:07,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:07,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:08,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:08,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:08,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:08,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:08,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:08,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:08,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:09,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] File does not exist: /var/www/html/awstats/awstats.pl
+2006-01-24 12:52:09,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:10,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:10,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+2006-01-24 12:52:11,error,jk2_init() Can't find child 32229 in scoreboard
+2006-01-24 12:52:11,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 12:52:11,error,mod_jk child init 1 -2
+2006-01-24 12:52:11,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:11,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:11,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:11,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:11,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:11,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:11,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:12,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:12,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:12,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:12,error,[client 211.99.203.228] script not found or unable to stat: /var/www/cgi-bin/awstats
+2006-01-24 12:52:12,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:13,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:13,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:14,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:14,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:14,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:14,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:14,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:14,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:15,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:16,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:17,error,[client 211.99.203.228] File does not exist: /var/www/html/blog
+2006-01-24 12:52:17,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:17,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:17,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:17,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:17,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:17,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/blogs
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:18,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:19,error,[client 211.99.203.228] File does not exist: /var/www/html/drupal
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:20,error,[client 211.99.203.228] File does not exist: /var/www/html/phpgroupware
+2006-01-24 12:52:21,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:21,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:21,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:21,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:21,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:21,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:21,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:22,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:22,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:22,error,[client 211.99.203.228] File does not exist: /var/www/html/wordpress
+2006-01-24 12:52:22,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:23,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:23,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:23,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:23,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:23,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:24,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:25,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:25,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:25,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:25,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:25,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:25,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:25,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:25,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:25,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:26,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:27,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:27,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlrpc
+2006-01-24 12:52:28,error,[client 211.99.203.228] File does not exist: /var/www/html/xmlsrv
+2006-01-24 12:52:29,notice,mod_jk2 Shutting down
+2006-01-24 14:15:11,error,[client 129.59.8.10] Directory index forbidden by rule: /var/www/html/
+2006-01-24 15:52:38,error,[client 143.43.14.100] Directory index forbidden by rule: /var/www/html/
+2006-01-24 17:59:08,error,[client 69.134.192.150] Directory index forbidden by rule: /var/www/html/
+2006-01-24 18:14:32,error,[client 220.163.7.170] Directory index forbidden by rule: /var/www/html/
+2006-01-24 19:55:26,error,[client 61.166.53.216] Directory index forbidden by rule: /var/www/html/
+2006-01-24 20:49:17,error,jk2_init() Can't find child 452 in scoreboard
+2006-01-24 20:49:17,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:17,error,mod_jk child init 1 -2
+2006-01-24 20:49:18,notice,jk2_init() Found child 453 in scoreboard slot 13
+2006-01-24 20:49:18,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:18,error,mod_jk child workerEnv in error state 8
+2006-01-24 20:49:18,error,jk2_init() Can't find child 454 in scoreboard
+2006-01-24 20:49:18,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:18,error,mod_jk child init 1 -2
+2006-01-24 20:49:19,notice,jk2_init() Found child 455 in scoreboard slot 15
+2006-01-24 20:49:19,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:19,error,mod_jk child workerEnv in error state 8
+2006-01-24 20:49:19,error,jk2_init() Can't find child 456 in scoreboard
+2006-01-24 20:49:19,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:19,error,mod_jk child init 1 -2
+2006-01-24 20:49:19,error,jk2_init() Can't find child 457 in scoreboard
+2006-01-24 20:49:19,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:19,notice,jk2_init() Found child 458 in scoreboard slot 20
+2006-01-24 20:49:19,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:19,error,mod_jk child workerEnv in error state 8
+2006-01-24 20:49:19,error,mod_jk child init 1 -2
+2006-01-24 20:49:20,error,jk2_init() Can't find child 459 in scoreboard
+2006-01-24 20:49:20,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:20,error,mod_jk child init 1 -2
+2006-01-24 20:49:20,error,jk2_init() Can't find child 460 in scoreboard
+2006-01-24 20:49:20,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:20,error,mod_jk child init 1 -2
+2006-01-24 20:49:20,error,jk2_init() Can't find child 461 in scoreboard
+2006-01-24 20:49:20,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:20,error,mod_jk child init 1 -2
+2006-01-24 20:49:20,error,jk2_init() Can't find child 462 in scoreboard
+2006-01-24 20:49:20,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:20,error,mod_jk child init 1 -2
+2006-01-24 20:49:20,notice,jk2_init() Found child 463 in scoreboard slot 31
+2006-01-24 20:49:20,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:20,error,jk2_init() Can't find child 464 in scoreboard
+2006-01-24 20:49:20,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:20,error,mod_jk child init 1 -2
+2006-01-24 20:49:20,error,jk2_init() Can't find child 465 in scoreboard
+2006-01-24 20:49:20,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:20,error,mod_jk child init 1 -2
+2006-01-24 20:49:20,error,jk2_init() Can't find child 466 in scoreboard
+2006-01-24 20:49:20,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:20,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,error,jk2_init() Can't find child 467 in scoreboard
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,notice,jk2_init() Found child 468 in scoreboard slot 36
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,jk2_init() Can't find child 469 in scoreboard
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,error,jk2_init() Can't find child 470 in scoreboard
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,error,jk2_init() Can't find child 471 in scoreboard
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,error,jk2_init() Can't find child 472 in scoreboard
+2006-01-24 20:49:21,notice,jk2_init() Found child 473 in scoreboard slot 41
+2006-01-24 20:49:21,error,jk2_init() Can't find child 474 in scoreboard
+2006-01-24 20:49:21,error,jk2_init() Can't find child 475 in scoreboard
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,error,jk2_init() Can't find child 476 in scoreboard
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,error,jk2_init() Can't find child 477 in scoreboard
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:21,error,jk2_init() Can't find child 479 in scoreboard
+2006-01-24 20:49:21,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:21,error,mod_jk child init 1 -2
+2006-01-24 20:49:22,error,jk2_init() Can't find child 480 in scoreboard
+2006-01-24 20:49:22,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:22,notice,jk2_init() Found child 478 in scoreboard slot 46
+2006-01-24 20:49:22,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:22,error,jk2_init() Can't find child 481 in scoreboard
+2006-01-24 20:49:22,error,jk2_init() Can't find child 482 in scoreboard
+2006-01-24 20:49:22,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:22,error,mod_jk child init 1 -2
+2006-01-24 20:49:22,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:22,error,mod_jk child init 1 -2
+2006-01-24 20:49:22,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:22,error,mod_jk child init 1 -2
+2006-01-24 20:49:26,notice,jk2_init() Found child 483 in scoreboard slot 51
+2006-01-24 20:49:26,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:27,error,jk2_init() Can't find child 484 in scoreboard
+2006-01-24 20:49:27,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:27,error,mod_jk child init 1 -2
+2006-01-24 20:49:27,error,jk2_init() Can't find child 485 in scoreboard
+2006-01-24 20:49:27,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:27,error,mod_jk child init 1 -2
+2006-01-24 20:49:28,error,jk2_init() Can't find child 486 in scoreboard
+2006-01-24 20:49:28,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:28,error,mod_jk child init 1 -2
+2006-01-24 20:49:28,error,jk2_init() Can't find child 487 in scoreboard
+2006-01-24 20:49:28,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:28,error,mod_jk child init 1 -2
+2006-01-24 20:49:28,notice,jk2_init() Found child 488 in scoreboard slot 56
+2006-01-24 20:49:28,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:28,error,jk2_init() Can't find child 489 in scoreboard
+2006-01-24 20:49:28,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:28,error,mod_jk child init 1 -2
+2006-01-24 20:49:29,notice,jk2_init() Found child 490 in scoreboard slot 58
+2006-01-24 20:49:29,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:29,error,jk2_init() Can't find child 491 in scoreboard
+2006-01-24 20:49:29,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:29,error,mod_jk child init 1 -2
+2006-01-24 20:49:29,error,jk2_init() Can't find child 492 in scoreboard
+2006-01-24 20:49:29,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:29,error,mod_jk child init 1 -2
+2006-01-24 20:49:29,error,jk2_init() Can't find child 493 in scoreboard
+2006-01-24 20:49:29,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:29,error,mod_jk child init 1 -2
+2006-01-24 20:49:29,error,jk2_init() Can't find child 494 in scoreboard
+2006-01-24 20:49:29,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:29,error,mod_jk child init 1 -2
+2006-01-24 20:49:29,error,jk2_init() Can't find child 495 in scoreboard
+2006-01-24 20:49:29,error,jk2_init() Can't find child 496 in scoreboard
+2006-01-24 20:49:29,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:29,error,mod_jk child init 1 -2
+2006-01-24 20:49:29,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:29,error,mod_jk child init 1 -2
+2006-01-24 20:49:29,notice,jk2_init() Found child 497 in scoreboard slot 65
+2006-01-24 20:49:29,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:32,error,jk2_init() Can't find child 498 in scoreboard
+2006-01-24 20:49:32,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:32,error,mod_jk child init 1 -2
+2006-01-24 20:49:33,error,jk2_init() Can't find child 500 in scoreboard
+2006-01-24 20:49:33,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:33,error,mod_jk child init 1 -2
+2006-01-24 20:49:33,notice,jk2_init() Found child 499 in scoreboard slot 67
+2006-01-24 20:49:33,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:34,error,jk2_init() Can't find child 501 in scoreboard
+2006-01-24 20:49:34,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:34,error,mod_jk child init 1 -2
+2006-01-24 20:49:34,notice,jk2_init() Found child 502 in scoreboard slot 70
+2006-01-24 20:49:34,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:34,error,jk2_init() Can't find child 503 in scoreboard
+2006-01-24 20:49:34,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:34,error,mod_jk child init 1 -2
+2006-01-24 20:49:34,error,jk2_init() Can't find child 504 in scoreboard
+2006-01-24 20:49:34,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+2006-01-24 20:49:34,error,mod_jk child init 1 -2
+2006-01-24 20:54:20,notice,mod_jk2 Shutting down
+2006-01-24 20:54:21,notice,mod_jk2 Shutting down
+2006-01-24 20:54:22,notice,mod_jk2 Shutting down
+2006-01-24 20:54:23,notice,mod_jk2 Shutting down
+2006-01-24 20:54:24,notice,mod_jk2 Shutting down
+2006-01-24 20:54:25,notice,mod_jk2 Shutting down
+2006-01-24 20:54:26,notice,mod_jk2 Shutting down
+2006-01-24 20:54:27,notice,mod_jk2 Shutting down
+2006-01-24 20:54:28,notice,mod_jk2 Shutting down
+2006-01-24 20:54:29,notice,mod_jk2 Shutting down
+2006-01-24 20:54:30,notice,mod_jk2 Shutting down
+2006-01-24 20:54:31,notice,mod_jk2 Shutting down
+2006-01-24 20:54:32,notice,mod_jk2 Shutting down
+2006-01-24 20:54:33,notice,mod_jk2 Shutting down
+2006-01-24 20:54:34,notice,mod_jk2 Shutting down
+2006-01-24 20:54:35,notice,mod_jk2 Shutting down
+2006-01-24 20:54:36,notice,mod_jk2 Shutting down
+2006-01-24 20:54:37,notice,mod_jk2 Shutting down
+2006-01-24 20:54:38,notice,mod_jk2 Shutting down
+2006-01-24 20:54:39,notice,mod_jk2 Shutting down
+2006-01-24 20:54:40,notice,mod_jk2 Shutting down
+2006-01-24 20:54:41,notice,mod_jk2 Shutting down
+2006-01-24 20:54:42,notice,mod_jk2 Shutting down
+2006-01-24 20:54:43,notice,mod_jk2 Shutting down
+2006-01-24 20:54:44,notice,mod_jk2 Shutting down
+2006-01-24 20:54:45,notice,mod_jk2 Shutting down
+2006-01-24 20:54:46,notice,mod_jk2 Shutting down
+2006-01-24 20:54:47,notice,mod_jk2 Shutting down
+2006-01-24 20:54:48,notice,mod_jk2 Shutting down
+2006-01-24 20:54:49,notice,mod_jk2 Shutting down
+2006-01-24 20:54:50,notice,mod_jk2 Shutting down
+2006-01-24 20:54:51,notice,mod_jk2 Shutting down
+2006-01-24 20:54:52,notice,mod_jk2 Shutting down
+2006-01-24 20:54:53,notice,mod_jk2 Shutting down
+2006-01-24 20:54:54,notice,mod_jk2 Shutting down
+2006-01-24 20:54:55,notice,mod_jk2 Shutting down
+2006-01-24 20:54:56,notice,mod_jk2 Shutting down
+2006-01-24 20:54:57,notice,mod_jk2 Shutting down
+2006-01-24 20:54:58,notice,mod_jk2 Shutting down
+2006-01-24 20:54:59,notice,mod_jk2 Shutting down
+2006-01-24 20:55:00,notice,mod_jk2 Shutting down
+2006-01-24 20:55:01,notice,mod_jk2 Shutting down
+2006-01-24 20:55:02,notice,mod_jk2 Shutting down
+2006-01-24 20:55:03,notice,mod_jk2 Shutting down
+2006-01-24 20:55:04,notice,mod_jk2 Shutting down
+2006-01-24 20:55:05,notice,mod_jk2 Shutting down
+2006-01-24 20:55:06,notice,mod_jk2 Shutting down
+2006-01-24 20:55:07,notice,mod_jk2 Shutting down
+2006-01-24 20:55:08,notice,mod_jk2 Shutting down
+2006-01-24 20:55:09,notice,mod_jk2 Shutting down
+2006-01-24 20:55:10,notice,mod_jk2 Shutting down
+2006-01-24 20:55:11,notice,mod_jk2 Shutting down
+2006-01-24 20:55:12,notice,mod_jk2 Shutting down
+2006-01-24 20:57:47,error,[client 211.63.25.235] Directory index forbidden by rule: /var/www/html/
+2006-01-24 21:07:05,error,[client 61.219.207.26] Directory index forbidden by rule: /var/www/html/
+2006-01-24 21:19:21,error,[client 216.74.229.19] Directory index forbidden by rule: /var/www/html/
+2006-01-24 21:34:54,error,[client 12.33.188.222] Directory index forbidden by rule: /var/www/html/
