@@ -35,7 +35,7 @@ def sessions():
     """Every session with its answer key, which the page keeps hidden until asked."""
     result = []
     for name in analyze.sessions():
-        with open(os.path.join(folder(name), "answer.txt")) as f:
+        with open(os.path.join(folder(name), "answer.txt"), encoding="utf-8") as f:
             result.append({"name": name, "answer": f.read().strip()})
     return result
 
@@ -76,7 +76,7 @@ def report(session: str):
     path = os.path.join(folder(session), "report.md")
     if not os.path.exists(path):
         return "No report yet. Press Run analysis."
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 
