@@ -5,16 +5,23 @@ Run from the repo root:
   set -a; . ./.env; set +a; .venv/bin/uvicorn app:app
 then open http://127.0.0.1:8000. The old one-page version is at /static/index.html.
 """
+import csv
+import io
 import json
 import os
-from collections import Counter
+import re
+import threading
+import time
+from collections import Counter, defaultdict
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, PlainTextResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 
 import analyze
 import db
+import live
+import split_dataset
 
 app = FastAPI(title="Exam portal root-cause analysis")
 
@@ -105,6 +112,118 @@ def run_analysis(session: str):
     folder(session)
     lines = (json.dumps(piece) + "\n" for piece in analyze.analyze(session))
     return StreamingResponse(lines, media_type="application/x-ndjson")
+
+
+@app.post("/api/upload")
+async def upload(request: Request, name: str):
+    """A CSV with final_dataset.csv's columns becomes a new session, or one per
+    scenario if it has a scenario column, like final_dataset.csv itself. The file
+    is the request body, so no form library is needed. Returns the new session names."""
+    body = await request.body()
+    if len(body) > 20_000_000:
+        raise HTTPException(413, "The file is over 20 MB.")
+    try:
+        rows = list(csv.DictReader(io.StringIO(body.decode("utf-8-sig"))))
+    except (UnicodeDecodeError, csv.Error) as e:
+        raise HTTPException(400, f"Not a readable CSV file: {e}")
+    if not rows:
+        raise HTTPException(400, "The file has no rows.")
+    missing = [c for c in split_dataset.COLUMNS if c not in rows[0]]
+    if missing:
+        raise HTTPException(400, f"Missing columns: {', '.join(missing)}.")
+
+    # Check every row now, so a bad file is refused instead of breaking the charts later.
+    for line, row in enumerate(rows, start=2):  # line 1 is the header
+        if not re.match(r"\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}", row["timestamp"] or ""):
+            raise HTTPException(400, f"Line {line}: timestamp {row['timestamp']!r} is not like 2026-10-29 09:30:00.")
+        row["timestamp"] = row["timestamp"].replace("T", " ")
+        for column in split_dataset.COLUMNS[1:-1]:  # every column but timestamp and complaint_text
+            try:
+                float(row[column])
+            except (TypeError, ValueError):
+                raise HTTPException(400, f"Line {line}: {column} {row[column]!r} is not a number.")
+        row["complaint_text"] = row["complaint_text"] or ""
+
+    # Uploaded sessions start with upload_, so they never replace the built-in ones.
+    # The name is cut down to letters, digits, _ and -, so it cannot leave data/sessions/.
+    def clean(text):
+        return re.sub(r"[^A-Za-z0-9_-]+", "_", text).strip("_")[:40]
+    base = "upload_" + (clean(name) or "data")
+    by_scenario = defaultdict(list)
+    for row in rows:
+        by_scenario[row.get("scenario") or ""].append(row)
+    created = []
+    for scenario, group in by_scenario.items():
+        session = base if len(by_scenario) == 1 else f"{base}_{clean(scenario)}"
+        path = os.path.join(analyze.SESSIONS, session)
+        split_dataset.write_session(path, group, scenario or "No answer key: the file had no scenario column.")
+        # A report from an earlier upload under this name describes other data.
+        if os.path.exists(f"{path}/report.md"):
+            os.remove(f"{path}/report.md")
+        created.append(session)
+    return created
+
+
+# The live stream (live.py). One stream at a time, shared by everyone watching.
+@app.get("/api/live/stream")
+def live_stream():
+    """Server-sent events: the live state as JSON each time it changes, at most 4
+    times a second. The browser's EventSource reconnects by itself if this drops.
+    A comment line every 15 s keeps proxies from closing a quiet connection."""
+    def events():
+        seen = None  # nothing sent yet, so the first wait returns at once
+        while True:
+            seen, data = live.wait(seen, 15)
+            yield f"data: {data}\n\n" if data else ": keep-alive\n\n"
+            time.sleep(0.25)
+    return StreamingResponse(events(), media_type="text/event-stream", headers={"Cache-Control": "no-cache"})
+
+
+@app.post("/api/live/start")
+def live_start(session: str, speed: float = 10, start: str = ""):
+    """Play a stored session into the live analysis, `speed` minutes a second,
+    from `start` (HH:MM). It replaces whatever stream was there."""
+    folder(session)
+    if not 0 < speed <= 600:
+        raise HTTPException(400, "speed must be over 0 and at most 600 minutes a second.")
+    if start and not re.fullmatch(r"\d{2}:\d{2}", start):
+        raise HTTPException(400, f"start {start!r} is not like 09:30.")
+    threading.Thread(target=live.feed, args=(session, speed, start), daemon=True).start()
+    return {"ok": True}
+
+
+@app.post("/api/live/stop")
+def live_stop():
+    live.stop()
+    return {"ok": True}
+
+
+@app.post("/api/live/ingest")
+async def live_ingest(request: Request, new: bool = False):
+    """Records from a log shipper or script, one JSON object per line (see live.py).
+    new=true starts a new stream first. Records join the stream in order; the first
+    one that cannot be read stops the request with its line number."""
+    if live.state["feeding"] and not new:
+        raise HTTPException(409, "A stored session is playing. Stop it first, or send new=true.")
+    body = (await request.body()).decode("utf-8", "replace")
+    if new:
+        live.reset("records sent to /api/live/ingest")
+    for n, line in enumerate(body.splitlines(), start=1):
+        if line.strip():
+            try:
+                live.ingest(json.loads(line))
+            except ValueError as e:  # bad JSON is a ValueError too
+                raise HTTPException(400, f"Record {n}: {e}")
+    return {"received": live.state["received"]}
+
+
+@app.post("/api/live/save")
+def live_save():
+    """Save what has arrived as the live_recording session, to replay on the dashboard."""
+    try:
+        return {"session": live.save()}
+    except ValueError as e:
+        raise HTTPException(400, str(e))
 
 
 # Keep this last. Any other path (/, /incidents/INC-1, ...) is a page of the

@@ -41,7 +41,7 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy backend files, static assets, and data directory explicitly into /app
-COPY app.py analyze.py generate.py split_dataset.py db.py init.sql ./
+COPY app.py analyze.py generate.py split_dataset.py live.py db.py init.sql ./
 COPY data/ /app/data/
 COPY static/ /app/static/
 

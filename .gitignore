@@ -4,3 +4,5 @@ key.txt
 __pycache__/
 .omc/
 node_modules/
+data/sessions/upload_*/
+data/sessions/live_recording/

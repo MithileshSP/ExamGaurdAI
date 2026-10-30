@@ -4,10 +4,7 @@ import { Search, ChevronRight } from 'lucide-react';
 import PageHeader from '../components/layout/PageHeader.jsx';
 import EmptyState from '../components/common/EmptyState.jsx';
 import { useApp } from '../context/AppContext.jsx';
-import { minuteOf } from '../api.js';
-
-// The same grouping analyze.py uses in the evidence pack: client IP removed, numbers -> N.
-const masked = (message) => message.replace(/\[client [\d.]+\] /, '').replace(/\b\d+\b/g, 'N');
+import { masked, minuteOf } from '../api.js';
 
 export default function LogsExplorer() {
   const { data } = useApp();

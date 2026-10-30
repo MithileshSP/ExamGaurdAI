@@ -17,7 +17,6 @@ export function AppProvider({ children }) {
   const [speed, setSpeed] = useState(SPEEDS[0]);
   const [analysis, setAnalysis] = useState(null); // { session, thinking, report, running, error }
   const [reports, setReports] = useState({}); // the saved report.md of each session
-  const [collapsed, setCollapsed] = useState(false);
 
   useEffect(() => {
     listSessions().then((list) => { setSessions(list); setSession(list[0].name); }).catch(setError);
@@ -37,7 +36,14 @@ export function AppProvider({ children }) {
       setReports((all) => ({ ...all, [r.name]: r.report }));
     }, (e) => current && setError(e));
     return () => { current = false; };
-  }, [session]);
+    // A new session list also reloads: an upload may have just replaced this session's files.
+  }, [session, sessions]);
+
+  // After an upload: fetch the session list again and open the first new session.
+  async function addSessions(names) {
+    setSessions(await listSessions());
+    setSession(names[0]);
+  }
 
   const end = raw ? raw.timeline.minutes.length - 1 : 0;
   const upto = cursor ?? end;
@@ -91,8 +97,8 @@ export function AppProvider({ children }) {
 
   return (
     <AppContext.Provider value={{
-      sessions, session, setSession, data, error, view, setViewLabel, playing, speed, setSpeed,
-      replay, analysis, runAnalysis, reports, collapsed, setCollapsed,
+      sessions, session, setSession, addSessions, data, error, view, setViewLabel, playing, speed, setSpeed,
+      replay, analysis, runAnalysis, reports,
     }}>
       {children}
     </AppContext.Provider>

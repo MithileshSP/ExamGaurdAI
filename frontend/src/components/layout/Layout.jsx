@@ -1,11 +1,12 @@
 import { Outlet } from 'react-router-dom';
-import Sidebar from './Sidebar.jsx';
+import NavBar from './NavBar.jsx';
 import Topbar from './Topbar.jsx';
+import Toasts from './Toasts.jsx';
 import EmptyState from '../common/EmptyState.jsx';
 import { useApp } from '../../context/AppContext.jsx';
 
 export default function Layout() {
-  const { collapsed, data, error } = useApp();
+  const { data, error } = useApp();
   // Pages only render once the session's data is here, so they never check for it.
   let body = <Outlet />;
   if (error) body = <EmptyState title="The backend is not answering" hint={`${error.message}. Start uvicorn, then reload this page.`} />;
@@ -15,12 +16,13 @@ export default function Layout() {
     </div>
   );
   return (
-    <div className={`shell ${collapsed ? 'is-collapsed' : ''}`}>
-      <Sidebar />
-      <div className="main">
+    <>
+      <div className="masthead">
+        <NavBar />
         <Topbar />
-        <main className="content">{body}</main>
       </div>
-    </div>
+      <main className="content">{body}</main>
+      <Toasts />
+    </>
   );
 }

@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { Pause, Play, RotateCcw, SkipForward, Sparkles } from 'lucide-react';
 import HeatStrip from './HeatStrip.jsx';
+import SessionHealth from './SessionHealth.jsx';
 import { useApp, SPEEDS } from '../../context/AppContext.jsx';
 import { fmt } from '../../api.js';
 
@@ -74,19 +75,8 @@ export default function ExamClock() {
         </div>
       </div>
 
-      <aside className="clock-feed">
-        <h3>Student complaints, newest first</h3>
-        <ol>
-          {data.complaints.slice(-5).reverse().map((c, i) => (
-            <li key={data.complaints.length - i}>
-              <span className="num">{c.timestamp.slice(11, 16)}</span> {c.complaint_text}
-            </li>
-          ))}
-        </ol>
-        {data.complaints.length === 0 && <p className="muted">None yet.</p>}
-      </aside>
-
       <HeatStrip />
+      <SessionHealth />
     </section>
   );
 }

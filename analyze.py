@@ -55,7 +55,8 @@ def read(path):
 
 
 def sessions():
-    return sorted(os.listdir(SESSIONS))
+    # Every folder in data/sessions/; hidden ones (.DS_Store, tool state) are not sessions.
+    return sorted(name for name in os.listdir(SESSIONS) if not name.startswith("."))
 
 
 def load(session):

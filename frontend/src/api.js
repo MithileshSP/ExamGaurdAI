@@ -21,6 +21,30 @@ async function get(path, as = 'json') {
 
 export const listSessions = () => get('/api/sessions');
 
+// The columns an uploaded CSV needs: the same as data/given/final_dataset.csv.
+export const UPLOAD_COLUMNS = 'timestamp, active_users, response_time_ms, cpu_usage_pct, memory_usage_pct, '
+  + 'db_query_time_ms, bandwidth_mbps, error_count, complaint_text (scenario optional)';
+
+// A POST whose answer is JSON. The server's reason for refusing becomes the error.
+async function post(path, body) {
+  const response = await fetch(path, { method: 'POST', body });
+  const result = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(result.detail ?? `HTTP ${response.status}`);
+  return result;
+}
+
+// Send a CSV file; the server checks it and makes it a session (one per scenario).
+// Returns the new session names.
+export const uploadCsv = (file) =>
+  post(`/api/upload?name=${encodeURIComponent(file.name.replace(/\.csv$/i, ''))}`, file);
+
+// The live stream (live.py). Its state arrives through /api/live/stream (LiveContext.jsx).
+export const startLive = (session, speed, start) =>
+  post(`/api/live/start?${new URLSearchParams({ session, speed, start })}`);
+export const stopLive = () => post('/api/live/stop');
+// Saves what has arrived as a session and returns its name.
+export const saveLive = () => post('/api/live/save').then((r) => r.session);
+
 // Ask DeepSeek again (1-2 minutes). The server sends one JSON line per piece as
 // DeepSeek writes it: ["thinking", text] while it reasons, then ["report", text].
 export async function streamAnalysis(name, onPiece) {
@@ -42,6 +66,9 @@ export const fmt = (n) => Math.round(n).toLocaleString('en-US');
 
 // "12:50" from "2006-01-24 12:50:31", to compare with the chart minutes.
 export const minuteOf = (timestamp) => timestamp.slice(11, 16);
+
+// The same grouping analyze.py uses in the evidence pack: client IP removed, numbers -> N.
+export const masked = (message) => message.replace(/\[client [\d.]+\] /, '').replace(/\b\d+\b/g, 'N');
 
 // Average of every metric over some minutes, or null when there are none.
 function averages(rows) {

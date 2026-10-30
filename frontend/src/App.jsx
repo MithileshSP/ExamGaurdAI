@@ -7,6 +7,7 @@ import RootCauseAnalysis from './pages/RootCauseAnalysis.jsx';
 import LogsExplorer from './pages/LogsExplorer.jsx';
 import MetricsExplorer from './pages/MetricsExplorer.jsx';
 import Complaints from './pages/Complaints.jsx';
+import Live from './pages/Live.jsx';
 export default function App() {
   return (
     <Routes>
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="logs" element={<LogsExplorer />} />
         <Route path="metrics" element={<MetricsExplorer />} />
         <Route path="complaints" element={<Complaints />} />
+        <Route path="live" element={<Live />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>

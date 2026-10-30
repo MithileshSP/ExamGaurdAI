@@ -12,12 +12,17 @@ sources that generate.py writes for the Loghub day:
 answer.txt is the answer key. analyze.py never reads it, so DeepSeek never
 sees it; the page shows it after the analysis so you can check the result.
 These sessions have no Apache log.
+
+app.py also calls write_session() for a CSV uploaded from the page.
 """
 import csv
 import os
 from collections import defaultdict
 
 DATASET = "data/given/final_dataset.csv"
+# The columns a session is made from, as in final_dataset.csv. scenario is optional.
+COLUMNS = ["timestamp", "active_users", "response_time_ms", "cpu_usage_pct", "memory_usage_pct",
+           "db_query_time_ms", "bandwidth_mbps", "error_count", "complaint_text"]
 
 
 def write(path, header, rows):
@@ -27,13 +32,8 @@ def write(path, header, rows):
         writer.writerows(rows)
 
 
-sessions = defaultdict(list)
-with open(DATASET) as f:
-    for row in csv.DictReader(f):
-        sessions[row["scenario"]].append(row)
-
-for scenario, rows in sessions.items():
-    folder = f"data/sessions/dataset_{scenario[0]}"  # "A_db_bottleneck" -> dataset_A
+def write_session(folder, rows, answer):
+    """Write one session's files from rows that have the COLUMNS."""
     os.makedirs(folder, exist_ok=True)
     write(f"{folder}/server.csv",
           ["timestamp", "cpu_usage_pct", "memory_usage_pct", "db_query_time_ms", "error_count"],
@@ -48,5 +48,17 @@ for scenario, rows in sessions.items():
           [[r["timestamp"], text.strip()] for r in rows
            for text in r["complaint_text"].split("|") if text.strip()])
     with open(f"{folder}/answer.txt", "w") as f:
-        f.write(scenario + "\n")
-    print(f"{folder}: {len(rows)} minutes")
+        f.write(answer + "\n")
+
+
+# Only when run as a script: app.py imports this file for write_session().
+if __name__ == "__main__":
+    sessions = defaultdict(list)
+    with open(DATASET) as f:
+        for row in csv.DictReader(f):
+            sessions[row["scenario"]].append(row)
+
+    for scenario, rows in sessions.items():
+        folder = f"data/sessions/dataset_{scenario[0]}"  # "A_db_bottleneck" -> dataset_A
+        write_session(folder, rows, scenario)
+        print(f"{folder}: {len(rows)} minutes")
