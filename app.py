@@ -14,8 +14,24 @@ from fastapi.responses import FileResponse, PlainTextResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 
 import analyze
+import db
 
 app = FastAPI(title="Exam portal root-cause analysis")
+
+
+@app.on_event("startup")
+def startup_db():
+    """Seed data into MySQL on startup if MySQL is available and empty."""
+    if db.is_db_available():
+        db.seed_from_csv()
+
+
+@app.get("/api/db-status")
+def db_status():
+    """Health check for MySQL connection."""
+    available = db.is_db_available()
+    return {"database": "mysql", "connected": available, "mode": "mysql" if available else "file_fallback"}
+
 app.mount("/static", StaticFiles(directory="static"), name="static")
 # The built React app: index.html plus its JavaScript and CSS in assets/.
 app.mount("/assets", StaticFiles(directory="frontend/dist/assets", check_dir=False),
